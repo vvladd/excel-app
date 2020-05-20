@@ -1,0 +1,29 @@
+{
+  "name": "excel-app",
+  "version": "1.0.0",
+  "description": "Excel Application by JavaScript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvladd/excel.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "excel"
+  ],
+  "author": "Vlad <vvlad0202@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvladd/excel/issues"
+  },
+  "homepage": "https://github.com/vvladd/excel#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
