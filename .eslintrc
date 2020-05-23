@@ -5,6 +5,8 @@
     "browser": true,
     "node": true
   },
-  "rules": {},
+  "rules": {
+    "require-jsdoc": "off"
+  },
   "extends": ["eslint:recommended", "google"]
 }
