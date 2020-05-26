@@ -5,6 +5,10 @@
     "browser": true,
     "node": true
   },
-  "rules": {},
+  "rules": {
+    "require-jsdoc": "off",
+    "operator-linebreak": "off",
+    "indent": "warn"
+  },
   "extends": ["eslint:recommended", "google"]
 }
