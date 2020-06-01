@@ -8,7 +8,7 @@
   "rules": {
     "require-jsdoc": "off",
     "operator-linebreak": "off",
-    "indent": "warn"
+    "indent": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
