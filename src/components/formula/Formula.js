@@ -20,15 +20,16 @@ export class Formula extends ExcelComponent {
     super.init();
     this.$formula = this.$root.find('#formula');
 
-    this.$on('table:input', ($cell) => {
-      this.$formula.text($cell);
-    });
+    // this.$on('table:input', ($cell) => {
+    //   this.$formula.text($cell);
+    // });
     this.$on('table:select', ($cell) => {
       this.$formula.text($cell.text());
     });
-    // this.$subscribe((state) => {
-    //   console.log('FormulaState', state);
-    // });
+
+    this.$subscribe((state) => {
+      this.$formula.text(state.currentText);
+    });
   }
   onInput(event) {
     this.$emit('formula:input', $(event.target).text());
