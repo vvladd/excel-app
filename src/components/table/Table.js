@@ -6,7 +6,7 @@ import {TableSelection} from './TableSelection';
 import {$} from '@core/dom';
 import * as actions from '@/redux/actions';
 import {defaultStyles} from '@/constants';
-import {parse} from '../../core/parse';
+import {parse} from '@core/parse';
 
 export class Table extends ExcelComponent {
   static className = 'excel__table';

@@ -7,7 +7,7 @@ import {Formula} from '@/components/formula/Formula';
 import {Table} from '@/components/table/Table';
 import {Header} from '@/components/header/Header';
 import {Excel} from '@/components/excel/Excel';
-import {normalizeInitialState} from '../redux/initialState';
+import {normalizeInitialState} from '@/redux/initialState';
 
 function storageName(param) {
   return 'excel:' + param;
