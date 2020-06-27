@@ -18,7 +18,7 @@ export class LocalStorageClient {
       const state = storage(this.name);
       setTimeout(() => {
         resolve(state);
-      }, 2500);
+      }, 500);
     });
   }
 }
