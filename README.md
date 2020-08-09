@@ -6,7 +6,7 @@
 - Возможность маштабирования строк и столбцов таблицы
 - Возможность сохранения состояния приложения после перезагрузки страницы и закрытия браузера
 
-**Использовались технологии:** HTML, CSS, SCSS, JavaScript, Webpack, Babel, ESLint Jest, Redux, Router, LocalStorage
+**Использовались технологии:** HTML, CSS, SCSS, JavaScript, Webpack, Babel, ESLint, Jest, Redux, Router, LocalStorage
 
 **Смотреть [демо](https://eager-jennings-27cdb4.netlify.app/)**
 
